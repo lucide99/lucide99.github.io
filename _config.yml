@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko"
+locale                   : "ko-KR"
 title                    : "lucide99"
 title_separator          : "-"
-subtitle                 : "V 1.0" # site tagline that appears below site title in masthead
+subtitle                 : "V_1.0" # site tagline that appears below site title in masthead
 name                     : "minji kang"
-description              : "배운 것 집합"
+description              : "배운 것 집합소"
 url                      : "https://lucide99.github.io"
 baseurl                  : "/lucide99" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
