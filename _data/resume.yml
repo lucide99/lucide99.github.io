@@ -1,0 +1,178 @@
+# hide_description: false -> 깃허브 업로드 시, false 설정
+basics:
+  name: "강민지"
+  label: "데이터 분석과 ai엔지니어"
+  picture: /assets/img/
+  summary: |  
+    7년차 B2B 영업의 기획 및 관리 경력, 6개월간 AI 전문 교육을 통한 데이터 분석 및 AI 제반 지식, 그리고 AI를 활용한 2번의 서비스 기획 및 개발 경험을 합하여, '일상의 새로운 혁신을 목표로 서비스를 기획하고 관리하는 전문가 이지윤'으로서 비즈니스 성장을 견인하겠습니다.
+  
+  website : "1999.05.27. (25세)"
+  email:
+    'mjk527@naver.com'
+  phone: +8210 - 9211 - 0544
+  
+  profiles:
+    - network:  "download"
+      username: Portfolio
+      url: "노션 링크"
+    - network: "LinkedIn"
+      username: "LinkedIn"
+      url: ""
+    - network: "Github"
+      username: "GitHub"
+      url: ""
+
+work:
+  - company: ""
+    website: ""
+    startDate: ""
+    endDate: ""
+
+  - position: ""
+    startDate: ""
+    endDate: ""
+    summary: |
+        - 수행목적 : 
+        - 주요역할 : 
+        - 업무성과 : 
+  
+education:
+  - institution: "부산대학교"
+    area: "불어불문학과/무역학부"
+    studyType: "Bachelor"
+    startDate: "2018-03-02"
+    endDate: "2024-02-23"
+    gpa: "4.14 / 4.5"
+    courses: |
+      --
+  - certificate: "데이터 애널리시스 34기"
+    startDate: "2024-01-15"
+    endDate: "2024-07-10"
+    courses: |
+      참여목적 : Python과 SQL 기반 데이터 분석, ML/DL 모델을 활용해 서비스 기획부터 웹 배포까지 개발의 전체 Flow 경험을 통해,
+      데이터 분석과 AI기술에 대한 전문 역량 형성
+
+projects:
+  - title: "(2022.12 - 2023.02) BERT, OpenCV를 활용한 5가지의 감정자막 자동 생성 'EmoS'"
+    #startDate: "2022-12-01"
+    #endDate: "2023-02-19"
+    url: "https://daisylee.notion.site/BERT-OpenCV-5-EmoS-e12f47fe71b14e6cb581b6c0b537fcf3"
+    summary: |
+      - **서비스 기획 과정**
+        1. 문제 정의 : Video 시청 시, Audio를 들을 수 없는 상황 혹은 청각 장애를 가진 분들은 화자의 감정을 이해하기 위해 주어진 환경 (표정, 상황 등)을 고려해야하는 제약사항이 있음
+        2. 기획 목적 : 이처럼 Audio를 들을 수 없는 상황 혹은 청각 장애를 가진 분들을 위해 감정이 반영된 자막을 통해 Video의 화면만으로도 화자의 감정을 쉽게 이해할 수 있도록 본 서비스를 기획함
+
+      - **서비스 개발 과정**
+        1. 데이터 전처리 : AI-Hub의 감정 분류를 위한 음성 데이터셋과 감성대화 말뭉치를 학습 데이터로 활용 및 전처리
+        2. 감정 Label 분류기 모델링 : 정의한 감정 Label 5개에 따라 발화문의 Label을 분류할 수 있도록 BERT 모델을 Fine-tuning 및 학습
+        3. 자막 자동 합성 기능 구현 : 분류기를 통해 감정이 Labeling된 발화문(Text data)이 Input 되면, OpenCV, PIL을 활용해 5개의 감정 Label에 따라 스타일을 정의한 자막이 타임스탬프에 따라 동영상과 합성되어 Output으로 출력되는 기능을 구현함
+        4. 웹 배포 : AWS, Django를 활용한 FE, BE 구현
+
+      - **주요 역할**
+        1. GitHub, Notion, Slack을 활용한 프로젝트 리딩, 데일리 스크럼 진행, 이슈 · 일정 관리
+        2. 서비스 기획 및 구체화를 위한 아이데이션 리딩
+        3. OpenCV를 활용한 자동 자막 합성 기능 개발
+        4. BERT 모델 Accuracy 향상을 위한 Fine-tuning 과정 피드백
+
+      - ** 개선할 점**
+        1. 초반에는 Muti-modal을 시도했지만 음성 데이터가 오히려 Accuracy를 저하시켜, Text 데이터로만 학습을 시킴 추후, 초반의 목표였던 멀티모달을 위해 음성데이터의 Accuracy 향상이 필요
+        2. 코드 리팩토링을 통해 알고리즘의 시간복잡도를 줄이기 위한 노력이 필요
+        3. 동영상 화질 저하 이슈 해결 필요
+
+  - title: "(2022.09 - 2022.11) BERT, 유사 데이터 추천 모델을 활용한 데이터 아카이브 ‘데이터 플래닛’"
+    summary: |
+      - **서비스 기획 과정**
+        1. 문제 정의 : 데이터 사용자 입장에서 공공 데이터 플랫폼 사용 시 겪는 어려움을 해결하고자 5개의 공공 데이터 플랫폼을 크롤링하여 약 12.7만 개의 데이터 수집 및 분석하여 '분산성, 독립성, 비구조화성'으로 문제를 정의함
+        2. 기획 목적 : 데이터의 유형 (Label)을 자동으로 분류해주는 분류기와 추천 AI 서비스를 활용해 여러 플랫폼이 아닌 하나의 플랫폼에서 데이터의 손쉬운 접근과 사용이 가능하도록 UX를 개선하는 방향으로 본 서비스를 기획함
+
+      = ** 서비스 개발 과정**
+        1. 데이터 전처리 : 수집한 데이터에서 형태소 분리 및 워드 임베딩, 필수적 칼럼 통일
+        2. 데이터 유형 (Label) 분류기 개발 : BERT 모델을 통해 데이터 Label 분류 모델 개발
+        3. 유사 데이터 추천 모델 개발 : 코사인 유사도를 기반으로 유사한 데이터 추천 모델 개발
+        4. 프로토타입 구현 : Django, Bootstrap을 활용한 BE, FE 구현
+
+      - **주요 역할**
+        1. 서비스 기획 및 구체화를 위한 아이데이션 리딩, Figma를 활용한 프로토타입 가이드 제시
+        2. Selenium, Beautiful Soup를 활용한 데이터 크롤링
+        3. 데이터 분석을 통한 문제 정의 및 데이터 전처리
+        4. 활용 AI 모델 (BERT, 코사인 유사도 기반 추천모델) 서치
+        5. 최종 보고서 작성
+
+       ** 개선할 점**
+    # startDate: "2022-09-01"
+    # endDate: "2022-11-30"
+    url: "https://daisylee.notion.site/BERT-fc6baf48b2b9407b841d8e6ff66218af"
+
+awards:
+  - title: ""
+    awarder: ""
+    #url: "https://aiopen.etri.re.kr/viewNotice?id=107"
+    highlights: 
+
+  - title: ""
+    awarder: ""
+    #url: "https://github.com/BBARRY-Lee/Emotion-subtitle"
+    highlights:  
+    
+skills:
+  - name: "Project management"
+    level: "expert"
+    keywords:
+      - Waterfall
+      - Agile
+      - Scrum
+
+  - name: "Risk management and mitigation"
+    level: "expert"
+    keywords:
+      - "Loss prevention and control"
+      - "Incident response and crisis management"
+
+  - name: "Stakeholder Management"
+    level: "expert"
+    keywords:
+      - "Collaboration and partnerships"
+
+  - name: "Data analysis"
+    level: "expert"
+    keywords:
+      - "Data EDA & preprocessing with Python, R, SQL, Excel"
+      - "Dashboarding and reporting"
+      - "Machine learning, AI"
+
+  - name: "Problem Solving and Decision Making"
+    level: "amateur"
+    keywords:
+      - "Problem identification and resolution"
+      - "Problem prioritization"
+
+  
+languages:
+  - language: "Korean"
+    fluency: "Native speaker"
+  - language: "English"
+    fluency: "limited-working-proficiency"
+interests:
+  - name: "Activity"
+    keywords:
+      - "Camping"
+      - "cooking"
+      
+
+
+
+
+    
+#- name: "Reading"
+#  keywords:
+#    - ""
+# - name: "Gaming"
+#  keywords:
+#    - "League of Legend"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
+
+# <https://jsonresume.org/>
