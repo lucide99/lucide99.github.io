@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { useI18n } from '../i18n/i18n.js'
+import { useI18n } from '../i18n/i18n.jsx'
 
 export default function AboutSection() {
   const { t } = useI18n()

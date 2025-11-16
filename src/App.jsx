@@ -6,7 +6,7 @@ import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'
 import ProjectDetail from './pages/ProjectDetail.jsx'
 import NotFound from './pages/NotFound.jsx'
-import { LangProvider } from './i18n/i18n.js'
+import { LangProvider } from './i18n/i18n.jsx'
 
 export default function App() {
   return (

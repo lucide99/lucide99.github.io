@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import ParticleBackground from '../components/ParticleBackground.jsx'
-import { useI18n } from '../i18n/i18n.js'
+import { useI18n } from '../i18n/i18n.jsx'
 
 export default function Hero() {
   const { t } = useI18n()

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import LangToggle from './LangToggle.jsx'
-import { useI18n } from '../i18n/i18n.js'
+import { useI18n } from '../i18n/i18n.jsx'
 
 export default function Navbar() {
   const { t } = useI18n()

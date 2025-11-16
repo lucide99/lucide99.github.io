@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { useI18n } from '../i18n/i18n.js'
+import { useI18n } from '../i18n/i18n.jsx'
 import projects from '../data/projects.js'
 import ProjectCard from '../components/ProjectCard.jsx'
 
