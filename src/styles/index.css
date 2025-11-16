@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base resets and font */
+html, body, #root {
+  height: 100%;
+}
+body {
+  font-family: Pretendard, ui-sans-serif, system-ui, "Apple SD Gothic Neo", "Noto Sans KR", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0a0a0a;
+  color: #fafafa;
+}
+
+

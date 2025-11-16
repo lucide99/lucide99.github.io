@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "skills": "Skills",
+    "contact": "Contact",
+    "language": "언어"
+  },
+  "hero": {
+    "title": "AI Engineer",
+    "name": "Ming",
+    "cta": "View Projects",
+    "intro": "AI 엔지니어 포트폴리오. 프로젝트, 기술 스택, 그리고 작업 방식."
+  },
+  "about": {
+    "title": "About",
+    "desc": "경력 요약, 성향, 전문 분야(LLM/Backend/Automation/Frontend) 소개."
+  },
+  "projects": {
+    "title": "Projects",
+    "viewAll": "모든 프로젝트 보기"
+  },
+  "skills": {
+    "title": "Skills",
+    "backend": "Backend",
+    "llm": "LLM",
+    "automation": "Automation",
+    "frontend": "Frontend"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "이메일",
+    "sns": "SNS"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "페이지를 찾을 수 없습니다."
+  }
+}
+
+

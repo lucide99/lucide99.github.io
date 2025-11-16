@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "skills": "Skills",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "AI Engineer",
+    "name": "Ming",
+    "cta": "View Projects",
+    "intro": "AI engineer portfolio showcasing projects, skills, and ways of working."
+  },
+  "about": {
+    "title": "About",
+    "desc": "Career summary, traits, and specialties (LLM/Backend/Automation/Frontend)."
+  },
+  "projects": {
+    "title": "Projects",
+    "viewAll": "View All Projects"
+  },
+  "skills": {
+    "title": "Skills",
+    "backend": "Backend",
+    "llm": "LLM",
+    "automation": "Automation",
+    "frontend": "Frontend"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "sns": "SNS"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found."
+  }
+}
+
+
