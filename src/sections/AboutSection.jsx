@@ -1,11 +1,19 @@
-import React, { useState } from 'react'
+import React, { useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
 import { useI18n } from '../i18n/i18n.jsx'
 
 export default function AboutSection() {
   const { t } = useI18n()
-  const [useEmoji, setUseEmoji] = useState(false)
-  const profileSrc = '/0422%20강민지.JPG'
+  const [fallbackStep, setFallbackStep] = useState(0)
+  const sources = useMemo(
+    () => [
+      '/profile.jpg',               // recommended: place in public/profile.jpg
+      '/images/profile.jpg',        // optional: public/images/profile.jpg
+      '/0422%20강민지.JPG'          // original filename at root (may not be served in prod)
+    ],
+    []
+  )
+  const currentSrc = sources[fallbackStep]
   return (
     <section id="about" className="container mx-auto py-20">
       <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] items-start gap-8">
@@ -33,16 +41,16 @@ export default function AboutSection() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
         >
-          {useEmoji ? (
+          {fallbackStep >= sources.length ? (
             <div className="w-28 h-28 md:w-36 md:h-36 rounded-full flex items-center justify-center bg-white/5 border border-white/10 select-none">
               <span className="text-4xl md:text-5xl">🙂</span>
             </div>
           ) : (
             <img
-              src={profileSrc}
+              src={currentSrc}
               alt="Profile"
               className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover border border-white/10 ring-1 ring-white/10"
-              onError={() => setUseEmoji(true)}
+              onError={() => setFallbackStep((s) => s + 1)}
               loading="lazy"
             />
           )}
