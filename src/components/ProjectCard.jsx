@@ -5,7 +5,7 @@ export default function ProjectCard({ project }) {
   return (
     <Link
       to={`/projects/${project.slug}`}
-      className="group relative rounded-xl border border-white/10 bg-white/5 backdrop-blur p-5 hover:bg-white/10 transition"
+      className="group relative block rounded-xl border border-white/10 bg-white/5 backdrop-blur p-5 hover:bg-white/10 transition"
     >
       <div className="mb-2 text-lg font-semibold">{project.title}</div>
       <div className="mb-4 text-sm text-white/70">{project.summary}</div>
