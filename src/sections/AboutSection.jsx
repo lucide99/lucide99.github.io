@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
 import { useI18n } from '../i18n/i18n.jsx'
-import profileLocal from '../../sources/minji_kang.JPG'
+import profileLocal from '../../sources/minji_profile.jpg'
 
 export default function AboutSection() {
   const { t } = useI18n()
@@ -11,7 +11,7 @@ export default function AboutSection() {
       profileLocal,                 // imported via Vite asset pipeline
       '/profile.jpg',               // recommended: place in public/profile.jpg
       '/images/profile.jpg',        // optional: public/images/profile.jpg
-      '/0422%20강민지.JPG'          // original filename at root (may not be served in prod)
+      '/minji_profile.jpg'          // original filename at root (may not be served in prod)
     ],
     []
   )
