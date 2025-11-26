@@ -9,17 +9,26 @@
   },
   "hero": {
     "title": "AI Engineer",
-    "name": "Ming",
+    "name": "Minji Kang",
     "cta": "View Projects",
-    "intro": "AI 엔지니어 포트폴리오. 프로젝트, 기술 스택, 그리고 작업 방식."
+    "intro": "Portfolio showcasing projects, skills, and ways of working."
   },
   "about": {
     "title": "About",
-    "desc": "경력 요약, 성향, 전문 분야(LLM/Backend/Automation/Frontend) 소개."
+    "desc": "저는 새로운 것을 배우고 깊이 몰입해 탐구하는 과정 자체를 좋아하는 사람입니다.\n매일이 새롭고, 끊임없이 연구하고 실험할 여지가 많다는 점이 흥미로워 AI 엔지니어로 커리어를 시작하게 되었습니다.\n\n문제를 해결할 때 저는 ‘무엇을 만들까’보다 ‘왜 이게 문제인가’에서 출발합니다.\n문제의 구조를 뜯어보고, 해결할 수 있는 방향을 탐색하며,\n하나씩 쌓아 올려 동작하는 시스템으로 만들어가는 과정에서 큰 의미를 느낍니다.\n\n그동안 다양한 AI 제품을 0에서 1로 만드는 과정에 참여하며\n구조를 설계하고 기능을 구현하고, 불확실한 요구사항 속에서도\n전체 흐름을 이해한 뒤 가장 효과적인 해법을 선택하는 방식을 배워왔습니다.\n\n시스템 아키텍처, LLM 엔지니어링, 백엔드 개발, 자동화 등 여러 영역을 넘나들며\n기술이 실제 문제를 해결하도록 연결하는 일을 이어가고 싶습니다."
   },
   "projects": {
     "title": "Projects",
     "viewAll": "모든 프로젝트 보기"
+  },
+  "detail": {
+    "problem": "문제 정의",
+    "approach": "접근 / 프로세스",
+    "features": "핵심 기능",
+    "results": "기여 및 성과",
+    "gallery": "갤러리",
+    "links": "링크",
+    "back": "프로젝트 목록으로"
   },
   "skills": {
     "title": "Skills",

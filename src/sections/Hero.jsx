@@ -19,7 +19,7 @@ export default function Hero() {
           {t('hero.name')} <span className="text-primary">— {t('hero.title')}</span>
         </motion.h1>
         <motion.p
-          className="mt-4 text-white/70 max-w-2xl"
+          className="mt-4 text-gray-600 dark:text-white/70 max-w-2xl"
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}

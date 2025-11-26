@@ -23,11 +23,11 @@ export default function SkillsGrid() {
       </motion.h2>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
         {Object.entries(skills).map(([k, list]) => (
-          <div key={k} className="rounded-xl border border-white/10 p-5 bg-white/5">
-            <div className="font-semibold mb-3">{t(`skills.${k}`)}</div>
+          <div key={k} className="rounded-xl border border-gray-200 dark:border-white/10 p-5 bg-white dark:bg-white/5 shadow-sm">
+            <div className="font-semibold mb-3 text-gray-900 dark:text-white">{t(`skills.${k}`)}</div>
             <div className="flex flex-wrap gap-2">
               {list.map((s) => (
-                <span key={s} className="text-xs px-2 py-1 rounded bg-white/10 border border-white/10">
+                <span key={s} className="text-xs px-2 py-1 rounded bg-gray-100 dark:bg-white/10 border border-gray-200 dark:border-white/10 text-gray-700 dark:text-gray-300">
                   {s}
                 </span>
               ))}

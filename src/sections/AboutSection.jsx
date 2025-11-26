@@ -29,12 +29,12 @@ export default function AboutSection() {
             {t('about.title')}
           </motion.h2>
           <motion.p
-            className="mt-4 text-white/70 max-w-3xl"
+            className="mt-4 text-gray-600 dark:text-white/70 max-w-3xl"
             initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            {t('about.desc')}
+            <span className="whitespace-pre-line">{t('about.desc')}</span>
           </motion.p>
         </div>
         <motion.div
@@ -44,14 +44,14 @@ export default function AboutSection() {
           viewport={{ once: true }}
         >
           {fallbackStep >= sources.length ? (
-            <div className="w-28 h-28 md:w-36 md:h-36 rounded-full flex items-center justify-center bg-white/5 border border-white/10 select-none">
+            <div className="w-28 h-28 md:w-36 md:h-36 rounded-full flex items-center justify-center bg-gray-100 dark:bg-white/5 border border-gray-200 dark:border-white/10 select-none">
               <span className="text-4xl md:text-5xl">🙂</span>
             </div>
           ) : (
             <img
               src={currentSrc}
               alt="Profile"
-              className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover border border-white/10 ring-1 ring-white/10"
+              className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover border border-gray-200 dark:border-white/10 ring-1 ring-gray-200 dark:ring-white/10"
               onError={() => setFallbackStep((s) => s + 1)}
               loading="lazy"
             />

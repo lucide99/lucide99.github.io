@@ -6,12 +6,35 @@
 html, body, #root {
   height: 100%;
 }
+
+/* CSS Variables for theme colors */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --text-primary: #1a1a1a;
+  --text-secondary: #6b7280;
+  --border-color: #e5e5e5;
+  --card-bg: #ffffff;
+  --card-hover: #f9fafb;
+}
+
+.dark {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #1a1a1a;
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --card-bg: #1a1a1a;
+  --card-hover: #262626;
+}
+
 body {
   font-family: Pretendard, ui-sans-serif, system-ui, "Apple SD Gothic Neo", "Noto Sans KR", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0a0a0a;
-  color: #fafafa;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 

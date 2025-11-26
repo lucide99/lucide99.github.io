@@ -9,17 +9,26 @@
   },
   "hero": {
     "title": "AI Engineer",
-    "name": "Ming",
+    "name": "Minji Kang",
     "cta": "View Projects",
     "intro": "AI engineer portfolio showcasing projects, skills, and ways of working."
   },
   "about": {
     "title": "About",
-    "desc": "Career summary, traits, and specialties (LLM/Backend/Automation/Frontend)."
+    "desc": "I am a person who likes to learn new things and deeply explore the process of doing so.\nEvery day is new, and there are many opportunities to research and experiment.\nThis is interesting to me, so I started my career as an AI engineer.\n\nWhen I solve problems, I start from 'what to make' rather than 'why this is a problem'.\nI deconstruct the problem structure, explore possible solutions,\nand build a system step by step, which gives me great meaning.\n\nDuring my career, I participated in various AI product development from 0 to 1,\nlearning to design and implement functions, and selecting the most effective solution even in uncertain requirements.\n\nI have worked in various areas such as system architecture, LLM engineering, backend development, automation, and more, and I want to continue to connect technology to solve real problems."
   },
   "projects": {
     "title": "Projects",
     "viewAll": "View All Projects"
+  },
+  "detail": {
+    "problem": "Problem",
+    "approach": "Approach & Process",
+    "features": "Key Features",
+    "results": "Contributions & Results",
+    "gallery": "Gallery",
+    "links": "Links",
+    "back": "Back to Projects"
   },
   "skills": {
     "title": "Skills",

@@ -16,17 +16,17 @@ export default function ContactBar() {
       </motion.h2>
       <div className="mt-4 flex items-center gap-4">
         <a href="mailto:your@email"
-           className="px-4 py-2 rounded bg-white/10 border border-white/10 hover:bg-white/15 text-sm">
+          className="px-4 py-2 rounded bg-gray-100 dark:bg-white/10 border border-gray-200 dark:border-white/10 hover:bg-gray-200 dark:hover:bg-white/15 text-sm text-gray-900 dark:text-white transition-colors">
           {t('contact.email')}
         </a>
         <a href="https://github.com/lucide99" target="_blank" rel="noreferrer"
-           className="px-4 py-2 rounded bg-white/10 border border-white/10 hover:bg-white/15 text-sm">
+          className="px-4 py-2 rounded bg-gray-100 dark:bg-white/10 border border-gray-200 dark:border-white/10 hover:bg-gray-200 dark:hover:bg-white/15 text-sm text-gray-900 dark:text-white transition-colors">
           GitHub
         </a>
-        <a href="#" className="px-4 py-2 rounded bg-white/10 border border-white/10 hover:bg-white/15 text-sm">
+        <a href="#" className="px-4 py-2 rounded bg-gray-100 dark:bg-white/10 border border-gray-200 dark:border-white/10 hover:bg-gray-200 dark:hover:bg-white/15 text-sm text-gray-900 dark:text-white transition-colors">
           LinkedIn
         </a>
-        <a href="#" className="px-4 py-2 rounded bg-white/10 border border-white/10 hover:bg-white/15 text-sm">
+        <a href="#" className="px-4 py-2 rounded bg-gray-100 dark:bg-white/10 border border-gray-200 dark:border-white/10 hover:bg-gray-200 dark:hover:bg-white/15 text-sm text-gray-900 dark:text-white transition-colors">
           X
         </a>
       </div>
