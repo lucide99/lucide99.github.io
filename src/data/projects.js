@@ -39,8 +39,6 @@ const projects = [
       ]
     },
     images: [
-      "/img/heycanbot-1.png",
-      "/img/heycanbot-2.png"
     ],
     stack: ['LLM', 'RAG', 'Streamlit', 'FastAPI'],
     role: ['기술 기획', 'AI 모듈 개발', 'QA', 'Backend'],
@@ -169,7 +167,7 @@ const projects = [
       ]
     },
     stack: ['Apps Script', 'FastAPI', 'LLM'],
-    role: ['Fullstack'],
+    role: ['자동화 Tool 개발'],
     tags: ['generation', 'pipeline', 'AI'],
     links: { github: '#', demo: '#' }
   }

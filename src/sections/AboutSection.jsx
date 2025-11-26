@@ -44,14 +44,14 @@ export default function AboutSection() {
           viewport={{ once: true }}
         >
           {fallbackStep >= sources.length ? (
-            <div className="w-28 h-28 md:w-36 md:h-36 rounded-full flex items-center justify-center bg-gray-100 dark:bg-white/5 border border-gray-200 dark:border-white/10 select-none">
+            <div className="w-32 h-32 md:w-44 md:h-44 rounded-full flex items-center justify-center bg-gray-100 dark:bg-white/5 border border-gray-200 dark:border-white/10 select-none">
               <span className="text-4xl md:text-5xl">🙂</span>
             </div>
           ) : (
             <img
               src={currentSrc}
               alt="Profile"
-              className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover border border-gray-200 dark:border-white/10 ring-1 ring-gray-200 dark:ring-white/10"
+              className="w-32 h-32 md:w-44 md:h-44 rounded-full object-cover border border-gray-200 dark:border-white/10 ring-1 ring-gray-200 dark:ring-white/10"
               onError={() => setFallbackStep((s) => s + 1)}
               loading="lazy"
             />

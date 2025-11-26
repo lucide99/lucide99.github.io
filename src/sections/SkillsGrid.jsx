@@ -3,10 +3,11 @@ import { motion } from 'framer-motion'
 import { useI18n } from '../i18n/i18n.jsx'
 
 const skills = {
-  backend: ['Node.js', 'Python', 'FastAPI', 'PostgreSQL'],
-  llm: ['OpenAI API', 'LangChain', 'RAG', 'Vector DB'],
-  automation: ['Airflow', 'Celery', 'Selenium', 'Playwright'],
-  frontend: ['React', 'TailwindCSS', 'Vite', 'Framer Motion']
+  backend: ['Python', 'FastAPI', 'PostgreSQL', 'BigQuery'],
+  AI_ability: ['MCP','LangChain', 'LangGraph', 'Google ADK', 'RAG', 'Vector DB'],
+  automation: ['Apps Script', 'Playwright'],
+  frontend: ['React', 'Typescript', 'Vite', 'Javascript', 'HTML', 'CSS'],
+  Cloud: ['AWS', 'GCP']
 }
 
 export default function SkillsGrid() {
